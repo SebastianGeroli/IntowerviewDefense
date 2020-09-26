@@ -17,7 +17,7 @@ MonoBehaviour:
   - {fileID: 2167887361265943299, guid: d2fa1ccf45f156b49a79d08e9230a440, type: 3}
   - {fileID: 6132561872049017932, guid: a01a1477d357d6542b5f9dde22454355, type: 3}
   - {fileID: 917287511227089674, guid: 6cb53ce73dfad584b8612587978b1a43, type: 3}
-  damage: 1
+  damage: 10
   range: 4
   shootEvery: 0.1
   forceMinMax: {x: 1, y: 5}

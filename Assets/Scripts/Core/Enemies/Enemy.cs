@@ -49,7 +49,7 @@ namespace Core.Enemies
             while (currentGoal < waypoints.Length)
             {
                 yield return null;
-                var toGoalVector = transform.position - waypoints[currentGoal].position;
+                var toGoalVector =   waypoints[currentGoal].position - transform.position;
                 var toGoalDirection = toGoalVector.normalized;
 
                 transform.Translate(toGoalDirection * (Random.Range(enemySpeed.x, enemySpeed.y) * Time.deltaTime));
